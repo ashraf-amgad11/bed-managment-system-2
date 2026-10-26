@@ -1,0 +1,485 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Dr. Eleanor Vance",
+      "email": "admin@stjude-demo.edu",
+      "role": "Administrator",
+      "created_at": "2026-08-27T10:47:52.088Z",
+      "password_hash": "99340e1d197a2035485d038ee7d685db:113cdd960cdbe4a23b09908cac0ec695fe16e3f642ef0b6c79e1542f0bdfa24b07ed4f724ec60d93ad8e0399ea1ccdb61078f5329dc5b745092df00e481213a3"
+    },
+    {
+      "id": "USR-002",
+      "name": "Marcus Sterling",
+      "email": "reception@stjude-demo.edu",
+      "role": "Receptionist",
+      "created_at": "2026-09-01T08:47:52.088Z",
+      "password_hash": "fed77d1356a765a2ec14edbc709de8cb:9dad7c7a2f9b2896d69c25d87b6f807e2b056dcf7c57736739f8a57e1b80d088187ec5cc691dd815127cd9d7a1d9e224f98b11e5b795d5232314f9b5bd911c54"
+    },
+    {
+      "id": "USR-003",
+      "name": "Dr. Aris Thorne",
+      "email": "doctor@stjude-demo.edu",
+      "role": "Doctor",
+      "created_at": "2026-09-06T11:47:52.088Z",
+      "password_hash": "9111db02a4ff41cfb4a8c8f22adf50b0:a57ebeb80ec9b0142959929a37cb3b9ea823db598414b8f0b8f7547a63f5fd7ea227a545c6d1c4d871622f05f27f430af4d4435bf7310f70cb974ba65441087e"
+    },
+    {
+      "id": "USR-004",
+      "name": "Clara Chen",
+      "email": "clara.chen@stjude-demo.edu",
+      "role": "Receptionist",
+      "created_at": "2026-09-21T09:47:52.088Z",
+      "password_hash": "e39eefb5c424e81c519bcd9856284031:7e2d6bc9d6ac0254b19fbd56d711a423a0b634a63cdd78467db6b6b493030d9b07e9e1cc7b6b52d4299ffdc1e8ac727b4ffbc9dc8299a6b856aa0c045a104ebc"
+    },
+    {
+      "id": "USR-005",
+      "name": "Dr. Julian Mercer",
+      "email": "julian.mercer@stjude-demo.edu",
+      "role": "Doctor",
+      "created_at": "2026-10-01T07:47:52.088Z",
+      "password_hash": "cd089c4c0be9bcb91aba1a534d6f862e:f0c2c8b6a4c6f45f50f51a00ad9679fe34f90daa97181fafed225f40c492062e0f66776661511c0f15ba9f195ef4cd7e5e2b680fddbef84ec5b1cf9b155adf8a"
+    }
+  ],
+  "patients": [
+    {
+      "id": "PAT-1001",
+      "full_name": "Arthur Pendelton",
+      "date_of_birth": "1958-04-14",
+      "gender": "Male",
+      "phone": "(555) 014-2819",
+      "emergency_contact": "Martha Pendelton (Spouse) - (555) 014-2820",
+      "notes": "Admitted for inpatient observation and IV hydration monitoring. Fictional demo record.",
+      "created_at": "2026-10-12T09:47:52.088Z"
+    },
+    {
+      "id": "PAT-1002",
+      "full_name": "Beatrice Holloway",
+      "date_of_birth": "1972-11-03",
+      "gender": "Female",
+      "phone": "(555) 019-4412",
+      "emergency_contact": "David Holloway (Brother) - (555) 019-4490",
+      "notes": "Scheduled inpatient respiratory monitoring in General Medicine. Fictional demo record.",
+      "created_at": "2026-10-15T07:47:52.088Z"
+    },
+    {
+      "id": "PAT-1003",
+      "full_name": "Victor Kowski",
+      "date_of_birth": "1964-07-22",
+      "gender": "Male",
+      "phone": "(555) 013-8871",
+      "emergency_contact": "Elena Kowski (Daughter) - (555) 013-8875",
+      "notes": "Post-operative intensive care telemetry and vital signs tracking. Fictional demo record.",
+      "created_at": "2026-10-18T10:47:52.088Z"
+    },
+    {
+      "id": "PAT-1004",
+      "full_name": "Nadia Al-Mansoor",
+      "date_of_birth": "1985-02-19",
+      "gender": "Female",
+      "phone": "(555) 017-6523",
+      "emergency_contact": "Tariq Al-Mansoor (Spouse) - (555) 017-6524",
+      "notes": "High-dependency ICU continuous hemodynamic observation. Fictional demo record.",
+      "created_at": "2026-10-20T08:47:52.088Z"
+    },
+    {
+      "id": "PAT-1005",
+      "full_name": "Desmond Okafor",
+      "date_of_birth": "1991-09-08",
+      "gender": "Male",
+      "phone": "(555) 012-3398",
+      "emergency_contact": "Grace Okafor (Mother) - (555) 012-3400",
+      "notes": "Orthopedic surgical recovery ward placement. Mobility physical therapy scheduled. Fictional demo record.",
+      "created_at": "2026-10-21T11:47:52.088Z"
+    },
+    {
+      "id": "PAT-1006",
+      "full_name": "Sylvia Lindqvist",
+      "date_of_birth": "1953-12-30",
+      "gender": "Female",
+      "phone": "(555) 016-9041",
+      "emergency_contact": "Erik Lindqvist (Son) - (555) 016-9045",
+      "notes": "Cardiology inpatient arrhythmia telemetry observation. Fictional demo record.",
+      "created_at": "2026-10-22T06:47:52.088Z"
+    },
+    {
+      "id": "PAT-1007",
+      "full_name": "Gabriel Morales",
+      "date_of_birth": "1980-06-17",
+      "gender": "Male",
+      "phone": "(555) 011-7720",
+      "emergency_contact": "Lucia Morales (Spouse) - (555) 011-7721",
+      "notes": "Registered outpatient awaiting elective surgical bed assignment. Fictional demo record.",
+      "created_at": "2026-10-08T10:47:52.088Z"
+    },
+    {
+      "id": "PAT-1008",
+      "full_name": "Hannah Gallagher",
+      "date_of_birth": "1994-03-25",
+      "gender": "Female",
+      "phone": "(555) 015-5032",
+      "emergency_contact": "Liam Gallagher (Spouse) - (555) 015-5033",
+      "notes": "Pre-registered for Maternity ward admission. Fictional demo record.",
+      "created_at": "2026-10-17T08:47:52.088Z"
+    },
+    {
+      "id": "PAT-1009",
+      "full_name": "Kenneth Takahashi",
+      "date_of_birth": "1949-08-11",
+      "gender": "Male",
+      "phone": "(555) 018-2190",
+      "emergency_contact": "Mei Takahashi (Daughter) - (555) 018-2194",
+      "notes": "Previously discharged after general medicine evaluation; eligible for readmission if needed. Fictional demo record.",
+      "created_at": "2026-10-02T09:47:52.088Z"
+    },
+    {
+      "id": "PAT-1010",
+      "full_name": "Fiona MacAllister",
+      "date_of_birth": "1968-01-29",
+      "gender": "Female",
+      "phone": "(555) 014-6610",
+      "emergency_contact": "Callum MacAllister (Brother) - (555) 014-6615",
+      "notes": "Completed post-surgical recovery earlier this month. Fictional demo record.",
+      "created_at": "2026-10-05T07:47:52.088Z"
+    },
+    {
+      "id": "PAT-1011",
+      "full_name": "Leo Vance-Novak",
+      "date_of_birth": "2016-05-12",
+      "gender": "Male",
+      "phone": "(555) 019-8210",
+      "emergency_contact": "Petra Novak (Mother) - (555) 019-8211",
+      "notes": "Pediatric patient registered for overnight observation. Fictional demo record.",
+      "created_at": "2026-10-16T10:47:52.088Z"
+    },
+    {
+      "id": "PAT-1012",
+      "full_name": "Rowan Castellano",
+      "date_of_birth": "1988-10-05",
+      "gender": "Other",
+      "phone": "(555) 012-9940",
+      "emergency_contact": "Sora Castellano (Partner) - (555) 012-9941",
+      "notes": "Registered for general medicine diagnostic workup. Fictional demo record.",
+      "created_at": "2026-10-25T07:47:52.088Z"
+    }
+  ],
+  "beds": [
+    {
+      "id": "BED-101",
+      "bed_number": "GM-101A",
+      "ward": "General Medicine",
+      "room_number": "101",
+      "bed_type": "Standard",
+      "status": "Occupied",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-102",
+      "bed_number": "GM-101B",
+      "ward": "General Medicine",
+      "room_number": "101",
+      "bed_type": "Standard",
+      "status": "Occupied",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-103",
+      "bed_number": "GM-102A",
+      "ward": "General Medicine",
+      "room_number": "102",
+      "bed_type": "Standard",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-104",
+      "bed_number": "GM-102B",
+      "ward": "General Medicine",
+      "room_number": "102",
+      "bed_type": "Standard",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-105",
+      "bed_number": "GM-103A",
+      "ward": "General Medicine",
+      "room_number": "103",
+      "bed_type": "Isolation",
+      "status": "Maintenance",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-201",
+      "bed_number": "ICU-201",
+      "ward": "Intensive Care Unit",
+      "room_number": "201",
+      "bed_type": "ICU",
+      "status": "Occupied",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-202",
+      "bed_number": "ICU-202",
+      "ward": "Intensive Care Unit",
+      "room_number": "202",
+      "bed_type": "ICU",
+      "status": "Occupied",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-203",
+      "bed_number": "ICU-203",
+      "ward": "Intensive Care Unit",
+      "room_number": "203",
+      "bed_type": "ICU",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-204",
+      "bed_number": "ICU-204",
+      "ward": "Intensive Care Unit",
+      "room_number": "204",
+      "bed_type": "Isolation",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-205",
+      "bed_number": "ICU-205",
+      "ward": "Intensive Care Unit",
+      "room_number": "205",
+      "bed_type": "ICU",
+      "status": "Maintenance",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-301",
+      "bed_number": "SUR-301A",
+      "ward": "Surgical Ward",
+      "room_number": "301",
+      "bed_type": "Standard",
+      "status": "Occupied",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-302",
+      "bed_number": "SUR-301B",
+      "ward": "Surgical Ward",
+      "room_number": "301",
+      "bed_type": "Standard",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-303",
+      "bed_number": "SUR-302A",
+      "ward": "Surgical Ward",
+      "room_number": "302",
+      "bed_type": "Standard",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-304",
+      "bed_number": "SUR-302B",
+      "ward": "Surgical Ward",
+      "room_number": "302",
+      "bed_type": "Isolation",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-401",
+      "bed_number": "CAR-401A",
+      "ward": "Cardiology",
+      "room_number": "401",
+      "bed_type": "ICU",
+      "status": "Occupied",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-402",
+      "bed_number": "CAR-401B",
+      "ward": "Cardiology",
+      "room_number": "401",
+      "bed_type": "Standard",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-403",
+      "bed_number": "CAR-402A",
+      "ward": "Cardiology",
+      "room_number": "402",
+      "bed_type": "Standard",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-404",
+      "bed_number": "CAR-402B",
+      "ward": "Cardiology",
+      "room_number": "402",
+      "bed_type": "Standard",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-501",
+      "bed_number": "PED-501A",
+      "ward": "Pediatrics",
+      "room_number": "501",
+      "bed_type": "Pediatric",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-502",
+      "bed_number": "PED-501B",
+      "ward": "Pediatrics",
+      "room_number": "501",
+      "bed_type": "Pediatric",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-503",
+      "bed_number": "PED-502A",
+      "ward": "Pediatrics",
+      "room_number": "502",
+      "bed_type": "Pediatric",
+      "status": "Maintenance",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-601",
+      "bed_number": "MAT-601A",
+      "ward": "Maternity",
+      "room_number": "601",
+      "bed_type": "Maternity",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-602",
+      "bed_number": "MAT-601B",
+      "ward": "Maternity",
+      "room_number": "601",
+      "bed_type": "Maternity",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    },
+    {
+      "id": "BED-603",
+      "bed_number": "MAT-602A",
+      "ward": "Maternity",
+      "room_number": "602",
+      "bed_type": "Maternity",
+      "status": "Available",
+      "created_at": "2026-08-27T12:47:52.088Z"
+    }
+  ],
+  "admissions": [
+    {
+      "id": "ADM-3001",
+      "patient_id": "PAT-1001",
+      "bed_id": "BED-101",
+      "admission_datetime": "2026-10-22T18:17:52.088Z",
+      "discharge_datetime": null,
+      "status": "Active",
+      "notes": "Admitted to GM-101A for fluid balance monitoring and routine lab checks."
+    },
+    {
+      "id": "ADM-3002",
+      "patient_id": "PAT-1002",
+      "bed_id": "BED-102",
+      "admission_datetime": "2026-10-23T22:32:52.088Z",
+      "discharge_datetime": null,
+      "status": "Active",
+      "notes": "Assigned to GM-101B for inpatient respiratory care and observation."
+    },
+    {
+      "id": "ADM-3003",
+      "patient_id": "PAT-1003",
+      "bed_id": "BED-201",
+      "admission_datetime": "2026-10-24T08:02:52.088Z",
+      "discharge_datetime": null,
+      "status": "Active",
+      "notes": "Direct ICU transfer following thoracic procedure; continuous telemetry."
+    },
+    {
+      "id": "ADM-3004",
+      "patient_id": "PAT-1004",
+      "bed_id": "BED-202",
+      "admission_datetime": "2026-10-24T20:37:52.088Z",
+      "discharge_datetime": null,
+      "status": "Active",
+      "notes": "Admitted to ICU-202 for close metabolic and vital sign stabilization."
+    },
+    {
+      "id": "ADM-3005",
+      "patient_id": "PAT-1005",
+      "bed_id": "BED-301",
+      "admission_datetime": "2026-10-25T06:27:52.088Z",
+      "discharge_datetime": null,
+      "status": "Active",
+      "notes": "Post-op admission to Surgical Ward SUR-301A; vitals stable."
+    },
+    {
+      "id": "ADM-3006",
+      "patient_id": "PAT-1006",
+      "bed_id": "BED-401",
+      "admission_datetime": "2026-10-25T22:42:52.088Z",
+      "discharge_datetime": null,
+      "status": "Active",
+      "notes": "Cardiology step-down unit placement in CAR-401A for 48-hour monitoring."
+    },
+    {
+      "id": "ADM-2001",
+      "patient_id": "PAT-1009",
+      "bed_id": "BED-103",
+      "admission_datetime": "2026-10-04T02:47:52.088Z",
+      "discharge_datetime": "2026-10-08T04:17:52.088Z",
+      "status": "Discharged",
+      "notes": "4-day inpatient stay in GM-102A. Discharged in stable condition with follow-up plan."
+    },
+    {
+      "id": "ADM-2002",
+      "patient_id": "PAT-1010",
+      "bed_id": "BED-302",
+      "admission_datetime": "2026-10-08T21:47:52.088Z",
+      "discharge_datetime": "2026-10-13T03:27:52.088Z",
+      "status": "Discharged",
+      "notes": "Post-surgical recovery in SUR-301B completed without complications."
+    },
+    {
+      "id": "ADM-2003",
+      "patient_id": "PAT-1007",
+      "bed_id": "BED-402",
+      "admission_datetime": "2026-10-17T01:47:52.088Z",
+      "discharge_datetime": "2026-10-19T23:02:52.088Z",
+      "status": "Discharged",
+      "notes": "Diagnostic cardiac monitoring completed in CAR-401B; bed sanitized and released."
+    },
+    {
+      "id": "ADM-2004",
+      "patient_id": "PAT-1011",
+      "bed_id": "BED-501",
+      "admission_datetime": "2026-10-20T18:47:52.088Z",
+      "discharge_datetime": "2026-10-23T02:17:52.088Z",
+      "status": "Discharged",
+      "notes": "48-hour pediatric observation in PED-501A. Discharged home with parents."
+    },
+    {
+      "id": "ADM-2005",
+      "patient_id": "PAT-1008",
+      "bed_id": "BED-601",
+      "admission_datetime": "2026-10-23T03:47:52.088Z",
+      "discharge_datetime": "2026-10-24T21:27:52.088Z",
+      "status": "Discharged",
+      "notes": "Routine prenatal observation stay in MAT-601A; discharged in good health."
+    }
+  ]
+}

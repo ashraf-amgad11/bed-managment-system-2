@@ -1,0 +1,6 @@
+{
+  "name": "Hospital Bed Management System",
+  "description": "A comprehensive hospital bed, patient registration, admission, discharge, and occupancy management system with role-based access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
